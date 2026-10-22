@@ -1,6 +1,6 @@
 import test from '@playwright/test'
 
-test('Flipcart automation',{tag:['@smoke']},async({page,context})=>{
+test('TC_001',{tag:['@smoke']},async({page,context})=>{
    console.log('Execution started....')
    await page.goto('https://www.flipkart.com/')
    await page.getByRole('button',{name:"✕"}).click()
