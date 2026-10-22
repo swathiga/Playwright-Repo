@@ -1,0 +1,10 @@
+Simulating a real mobile/tablet device behaviour inside the browser without having actual browser
+
+1) We can configure device emulation in playwright.config.ts file
+2) {
+      name: 'iphone',// user defined name
+      use: { ...devices['iphone 13'] },
+    }
+3) we can configure any number of devices in this file.
+4) If we want to execute the code in specific device we can give command:
+    npx playwright test filename.spec.ts --

@@ -1,0 +1,21 @@
+Classroom Activity: Data Parameterization Using .env
+
+URL: https://login.salesforce.com
+
+Credentials
+-----------
+
+Username: dilipkumar.rajendran@testleaf.com
+Password: TestLeaf@2025
+
+Username: yuvarani.sekar@testleaf.com
+Password: Testleaf@2027
+
+Instructions
+------------
+
+Create the folder utils/data.
+Create a .env file inside the utils/data folder.
+Store the application URL, username, and password in the .env file.
+Create a Playwright test that reads the values from the .env file and logs in to the Salesforce application.
+

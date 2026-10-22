@@ -1,0 +1,1 @@
+{"version":3,"file":"typeassertion.js","sourceRoot":"","sources":["../../tests/typescript/typeassertion.ts"],"names":[],"mappings":";AAAA,UAAU;AACV,IAAI,KAAK,GAAO,SAAS,CAAA;AACzB,IAAI,aAAa,GAAG,KAAe,CAAA;AACnC,OAAO,CAAC,GAAG,CAAC,aAAa,CAAC,CAAC;AAE3B,UAAU;AACV,IAAI,WAAW,GAAY,KAAK,CAAA;AAChC,OAAO,CAAC,GAAG,CAAC,WAAW,CAAC,WAAW,EAAE,CAAC,CAAC"}

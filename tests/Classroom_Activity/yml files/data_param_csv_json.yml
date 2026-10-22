@@ -1,0 +1,33 @@
+Classroom1:
+https://login.salesforce.com
+
+testID
+dilipkumar.rajendran@testleaf.com
+TestLeaf@2025
+
+yuvarani.sekar@testleaf.com
+Testleaf@2027
+
+steps:
+-> create folder as utils -> create json file 
+-> pass values in json file
+-> Create Test
+
+Classroom Activity 2: Read Data from CSV
+
+https://leaftaps.com/opentaps/control/main
+
+Credentials:
+
+Username  Password
+DemoCSR	  crmsfa
+DemoCSR2  crmsfa
+
+Steps:
+------
+
+Create a utils folder.
+Create a loginData.csv file inside the utils folder.
+Add the username and password to the CSV file.
+Read the CSV data in Playwright.
+Create a test to perform login using the data from the CSV file.

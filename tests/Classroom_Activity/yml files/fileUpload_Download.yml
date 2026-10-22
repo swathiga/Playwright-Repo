@@ -1,0 +1,20 @@
+Activity 1:
+Step1: login to URL
+https://www.naukri.com/registration/createAccount
+ 
+Step2: click on I'm experienced
+ 
+Step3: upload the file using setInputFiles()
+
+Activity  2:
+
+Step 1: Launch the browser and navigate to the following URL:
+
+https://the-internet.herokuapp.com/download
+
+Step 2: Click on the background.jpg link to initiate the file download.
+
+Step 3: Wait for the download to complete and save the file in a folder named downloads within your 
+project.
+
+Step 4: Verify that the downloaded file name is background.jpg.

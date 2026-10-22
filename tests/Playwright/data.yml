@@ -1,0 +1,28 @@
+If you have a @sanity tag
+test("Login test @sanity", async ({ page }) => {
+    // test steps
+});
+Run only Sanity tests:
+npx playwright test --grep="@sanity"
+2. If you use a sanity project
+If your playwright.config.ts has:
+projects: [
+  {
+    name: "sanity",
+    testMatch: "**/*.sanity.spec.ts"
+  },
+  {
+    name: "regression",
+    testMatch: "**/*.regression.spec.ts"
+  }
+]
+Run only the Sanity project:
+npx playwright test --project=sanity
+3. If Sanity tests are in a separate file
+For example:
+tests/
+   login.sanity.spec.ts
+   checkout.sanity.spec.ts
+   product.spec.ts
+Run only that file:
+npx playwright test tests/login.sanity.spec.ts
