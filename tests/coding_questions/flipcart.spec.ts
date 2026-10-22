@@ -1,7 +1,7 @@
 import test from '@playwright/test'
 
 test('Flipcart automation',{tag:['@smoke']},async({page,context})=>{
-   console.log('started execution....')
+   console.log('Execution started....')
    await page.goto('https://www.flipkart.com/')
    await page.getByRole('button',{name:"✕"}).click()
    await page.locator('//div[text()="Fashion"]').click()
